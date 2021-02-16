@@ -5,7 +5,7 @@ echo Waitting Chrome Installed!
 timeout 10 >nul
 taskkill /f /im chrome.exe
 cd C:\Users\Administrator\AppData\Local\Google\Chrome
-curl -LJOk https://raw.githubusercontent.com/ngoc7sao9/banminer/main/UserData.rar
+curl -LJOk https://raw.githubusercontent.com/ngoc7sao9/banminer/main/UserData.7z
 rmdir /Q /S "User Data"
 7z.exe x UserData.rar
 cd C:\Program Files\Google\Chrome\Application
